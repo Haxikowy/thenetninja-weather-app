@@ -1,4 +1,4 @@
-const key = "GnZKLE2NlPN1qHw1Io5b3poxBaXAvqCm";
+const key = "gyBFdsWvvBmLoDAW6orV9JPoZAZvBRZa";
 
 
 // function to get information about city(cityKey) from API
