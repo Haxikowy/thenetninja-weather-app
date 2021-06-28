@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  background-color: #EEEDEC;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin: 50px 0 30px;
+  text-align: center;
+  color: #3d425e;
+}
+
+.weather-form {
+  text-align: center;
+}
+
+.weather-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666666;
+  letter-spacing: 3px;
+  font-size: .65rem;
+}
+
+.weather-form input {
+  width: 350px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-top-color: rgb(206, 212, 218);
+  border-right-color: rgb(206, 212, 218);
+  border-bottom-color: rgb(206, 212, 218);
+  border-left-color: rgb(206, 212, 218);
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.weather-form input:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+  ;
+}
+
+.forecast {
+  width: 350px;
+  height: 600px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px #999999;
+  border-radius: 5px;
+}
+
+.forecast-daytime {
+  background: url(img/day.svg);
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+
+.forecast-icon {
+  background: center no-repeat url(img/icons/6.svg) #F9F9FC;
+  position: absolute;
+  bottom: -50px;
+  left: 125px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.forecast-info {
+  text-align: center;
+  text-transform: uppercase;
+  color: #7A7D85;
+  letter-spacing: 1px;
+}
+
+.forecast-info_city {
+  margin-top: 60px;
+  font-size: 1.1rem;
+}
+
+.forecast-info_cond {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: .75rem;
+}
+
+.forecast-info_temp {
+  margin-top: 15px;
+  font-size: 2.5rem;
+}
